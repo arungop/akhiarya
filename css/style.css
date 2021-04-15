@@ -338,13 +338,13 @@
 .sakura {
 	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));*/
-	background: red;
+	background: #fff314;
 	pointer-events: none;
 	position: absolute
 }
 
 .sakura {
-	background: #674ea7;
+	background: #fff314;
 }
 
 
@@ -385,7 +385,7 @@ img {
 	font-style: normal;
 	font-size: 60px;
 	margin: 32px 0;
-	color: #674ea7;
+	color: #02a602;
 }
 
 .title h2 {
@@ -487,6 +487,22 @@ body {
 	color: #fff;
 }
 
+.venues {
+	width: auto;
+	height: auto;
+	background-color: #d1385c;
+	border-radius: 16px;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	margin-right: 8px;
+}
+
+.venues a {
+	text-decoration: none;
+	color: #fff;
+}
+
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -522,12 +538,12 @@ body {
 }
 
 .date {
-	color: #874562;
+	color: #e31e70;
 	font-weight: 900;
 }
 
 .place {
-	color: #874562;
+	color: #eb2341;
 	font-weight: 900;
 }
 
@@ -595,9 +611,12 @@ a {
    column-gap:           0px;
 }
 
+
+
 #photos img {
   /* Just in case there are inline attributes */
   width: 100% !important;
+  max-width: 350px !important;
   height: auto !important;
 }
 
@@ -624,15 +643,18 @@ a {
 }
 @media (max-width: 400px) {
   #photos {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
   }
 }
+
+
 
 body {
   margin: 0;
   padding: 0;
 }
+
 
 
